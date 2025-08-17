@@ -1,0 +1,25 @@
+# Python
+*.pyc
+__pycache__/
+
+# Django
+# Ignore SQLite (not using, but just in case one gets created locally)
+
+
+# Environment files (secrets)
+FewaBlog/.env
+*.env
+
+# Virtual environment
+FewaEnv/
+venv/
+env/
+.venv/
+
+# Static & media (if you collect locally)
+staticfiles/
+media/
+
+# IDE/editor configs
+.vscode/
+.idea/
